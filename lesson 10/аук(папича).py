@@ -17,6 +17,7 @@ print(logo)
 triger = "yes" # когда определять победителя
 while triger == "yes":
     name = input("Имя: ")
+    balance = 5000
     bet = int(input("ставка: "))
     temp_bet = {"name": name, "bet": bet}
     total_bets.append(temp_bet)
