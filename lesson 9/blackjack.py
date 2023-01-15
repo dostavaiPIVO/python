@@ -1,4 +1,4 @@
-import random
+    import random
 logo = """
 .------.            _     _            _    _            _    
 |A_  _ |.          | |   | |          | |  (_)          | |   

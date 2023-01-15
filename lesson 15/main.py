@@ -73,7 +73,7 @@
 
 
 # задача 3
-#
+
 # def min_max(spisok):
 #     mini, maxi = spisok[0], spisok[0]
 #     for i in spisok:
@@ -124,5 +124,27 @@
 # print(prime(523))
 
 
+# задача 6 (так то 2 но хз)
 
+
+# def join(spisok:list, razdelitel:str)->str:
+#     resick = ""
+#     for i in spisok:
+#         resick += i + razdelitel
+#     return resick
+#
+# listik = ["da", "net", "berserk"]
+# print(join(listik, "|"))
+
+
+# ЗАДАЧА 7 (так то 3 но хз)
+
+
+# def factorial(chislo):
+#     x = 1
+#     for i in range(2, chislo+1):
+#         x *= i # произведение всех i
+#     return x
+#
+# print(factorial(15))
 
