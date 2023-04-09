@@ -12,6 +12,10 @@ class User:
         print(self.__data)
 
 
+    def log_in(self, l, p):
+        if l == self.login and p == self.__password:
+            return True
+
 
 
 
